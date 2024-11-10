@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Nilai:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/inputValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh: 100"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Unit Input:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/inputUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Pilih Unit Output:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/outputUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Konversi:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/equalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/outputValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konversi"
+        android:layout_gravity="center" />
+
+</LinearLayout>
